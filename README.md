@@ -66,3 +66,12 @@ The score is scaled from [0, 1] to [0, 1000].
 | **Borrow Volume** | Higher borrow levels, if not matched by collateral, signal risk |
 | **Collateral-to-Borrow Ratio** | Ensures safety buffer; lower CBR means higher liquidation risk |
 | **Transaction Frequency** | Active users can rebalance portfolios better, managing risk proactively |
+
+## Output 
+wallet_id	score
+0x8be38ea2b22b706aef313c2de81f7d179024dd30	1000
+0x06b51c6882b27cb05e712185531c1f74996dd988	900
+0x70d8e4ab175dfe0eab4e9a7f33e0a2d19f44001e	826
+0x4814be124d7fe3b240eb46061f7ddfab468fe122	801
+0xa7f3c74f0255796fd5d3ddcf88db769f7a6bf46a	762
+
