@@ -16,7 +16,7 @@ Given 100 Ethereum wallet addresses, assess each wallet's risk based on its tran
   - `repayBorrow` 
   - `liquidation` events
   - `supply` and `redeem` transactions
-- Data fetched in batches and stored locally using Python (`main.py` or `fetch_data.py`)
+- Data fetched in batches and stored locally using Python
 
 ---
 
@@ -29,7 +29,6 @@ The following features were engineered from raw transaction data:
 4. **Collateral to Borrow Ratio (CBR)** - Healthy CBR implies better buffer and lower risk
 5. **Transaction Frequency** - Active users may manage risk better with regular rebalancing
 
-*Features stored and processed in `process_data.py`*
 
 ---
 
